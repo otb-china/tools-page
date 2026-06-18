@@ -37,7 +37,7 @@
           </span>
           <span>
             <strong>导出总数据</strong>
-            <em>下载本地账单备份文件</em>
+            <em>下载工具页备份文件</em>
           </span>
         </button>
 
@@ -47,7 +47,7 @@
           </span>
           <span>
             <strong>导入总数据</strong>
-            <em>上传备份文件后恢复账单</em>
+            <em>上传备份文件后恢复工具</em>
           </span>
         </button>
 
@@ -57,7 +57,7 @@
           </span>
           <span>
             <strong>回收站</strong>
-            <em>{{ recycleCount }} 个账单，一周内可恢复</em>
+            <em>{{ recycleCount }} 个工具，一周内可恢复</em>
           </span>
         </button>
 
@@ -67,7 +67,7 @@
           </span>
           <span>
             <strong>重置数据</strong>
-            <em>清除全部本地账单</em>
+            <em>清除全部工具数据</em>
           </span>
         </button>
       </div>

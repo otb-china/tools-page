@@ -4,3 +4,12 @@ export interface ToolItem {
   url: string;
   updatedAt: string;
 }
+
+export interface DeletedToolItem extends ToolItem {
+  deletedAt: string;
+}
+
+export interface ToolsPageBackupData {
+  tools?: unknown;
+  deletedTools?: unknown;
+}
